@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@unhead/vue": "^2.0.14",
     "@zumer/snapdom": "^1.9.3",
     "axios": "^1.10.0",
     "imagesloaded": "^5.0.0",

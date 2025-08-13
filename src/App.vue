@@ -1,10 +1,24 @@
 <!--
  * @Author: 羚羊公子
- * @FilePath: \welfare_tip\src\App.vue
+ * @FilePath: \welfare_tips\src\App.vue
 -->
 <script setup>
+import { ref } from "vue";
 import { useRoute } from "vue-router";
+import { useSeoMeta } from "@unhead/vue";
+const Title = ref(window.ENV_CONFIG && window.ENV_CONFIG.VITE_title);
+const Description = ref(window.ENV_CONFIG && window.ENV_CONFIG.VITE_description);
+const Keywords = ref(window.ENV_CONFIG && window.ENV_CONFIG.VITE_keywords);
 const route = useRoute();
+// 网站SEO优化配置
+useSeoMeta({
+  title: Title.value,
+  description: Description.value,
+  keywords: Keywords.value,
+  ogTitle: Title.value,
+  ogDescription: Description,
+  ogKeywords: Keywords.value,
+});
 </script>
 
 <template>
