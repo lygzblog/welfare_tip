@@ -21,4 +21,4 @@
 
 4. **VITE_keywords**: "网站关键词"
 
-![](https://raw.githubusercontent.com/lygzblog/githubImg/refs/heads/main/wetip_config.webp)
+![](https://raw.githubusercontent.com/lygzblog/githubImg/refs/heads/main/welfare_tip_config.webp)

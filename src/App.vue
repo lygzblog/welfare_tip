@@ -5,12 +5,16 @@
 <script setup>
 import { ref } from "vue";
 import { useRoute } from "vue-router";
-import { useSeoMeta } from "@unhead/vue";
+import { useHead, useSeoMeta } from "@unhead/vue";
 const Title = ref(window.ENV_CONFIG && window.ENV_CONFIG.VITE_title);
 const Description = ref(window.ENV_CONFIG && window.ENV_CONFIG.VITE_description);
 const Keywords = ref(window.ENV_CONFIG && window.ENV_CONFIG.VITE_keywords);
+const Icon = ref(window.ENV_CONFIG && window.ENV_CONFIG.VITE_Icon);
 const route = useRoute();
 // 网站SEO优化配置
+useHead({
+  link: [{ rel: "icon", href: Icon.value }],
+});
 useSeoMeta({
   title: Title.value,
   description: Description.value,
