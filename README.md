@@ -36,3 +36,7 @@
 1. apikey：**api 密钥**
 
 2. authorizationKey：**域名授权密钥**
+
+### 📺详细搭建文档及视频教程
+
+https://lygzblog.feishu.cn/wiki/M6rNwE86kiuXMBkb93icpAwUnse
