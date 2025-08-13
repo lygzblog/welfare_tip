@@ -13,12 +13,12 @@
 
 ### ✍config.js 配置内容
 
-1. VITE_API_URL: "后端授权域名结尾不需要斜杠/(例如：http://xxx.xxx.cn)"
+1. **VITE_API_URL**: "后端授权域名结尾不需要斜杠/(例如：http://xxx.xxx.cn)"
 
-2. VITE_title: "网站标题"
+2. **VITE_title**: "网站标题"
 
-3. VITE_description: "网站描述"
+3. **VITE_description**: "网站描述"
 
-4. VITE_keywords: "网站关键词"
+4. **VITE_keywords**: "网站关键词"
 
 ![](https://raw.githubusercontent.com/lygzblog/githubImg/refs/heads/main/wetip_config.webp)
