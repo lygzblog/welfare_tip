@@ -12,9 +12,9 @@ window.ENV_CONFIG = {
     VITE_description: "翻山羊线报网 - 一个实时更新各大平台福利线报的网站！",
     // 网站关键词
     VITE_keywords: "翻山羊线报网,翻山羊线报,翻山羊",
-    // 网站LOGO
+    // 网站LOGO (放在根目录即可名字不能随意改动)
     VITE_Logo: "/logo.png",
-    // 网站icon
+    // 网站icon (放在根目录即可名字不能随意改动)
     VITE_Icon: "/ico.png",
-
 };
+

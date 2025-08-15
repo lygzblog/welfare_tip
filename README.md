@@ -16,6 +16,10 @@
 
 4. **VITE_keywords**: "网站关键词"
 
+5. **VITE_Logo**: "网站 logo"
+
+6. **VITE_Icon**: "网站 icon"
+
 ![](https://raw.githubusercontent.com/lygzblog/githubImg/refs/heads/main/welfare_tip_config.webp)
 
 ---
