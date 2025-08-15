@@ -20,7 +20,7 @@ useSeoMeta({
   description: Description.value,
   keywords: Keywords.value,
   ogTitle: Title.value,
-  ogDescription: Description,
+  ogDescription: Description.value,
   ogKeywords: Keywords.value,
 });
 </script>

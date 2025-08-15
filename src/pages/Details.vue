@@ -10,6 +10,7 @@ import useClipboard from "vue-clipboard3";
 // 二维码库
 import QRCode from "qrcode";
 const API_BASE_URL = ref(window.ENV_CONFIG && window.ENV_CONFIG.VITE_API_URL);
+const LOGO = ref(window.ENV_CONFIG && window.ENV_CONFIG.VITE_Logo);
 const { toClipboard } = useClipboard();
 const router = useRouter();
 const route = useRoute();
@@ -337,7 +338,7 @@ const downLoadImg = async () => {
             <div class="describe">网址地址：{{ path }}</div>
             <div class="qrKuang">
               <div class="qrlogo">
-                <img class="img" :src="FsyLogo" alt="" />
+                <img class="img" :src="LOGO" alt="" />
               </div>
               <div class="qrcode">
                 <img class="img" :src="QrUrl" alt="" />

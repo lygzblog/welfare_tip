@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  welfare_tips:
+    image: lygzblog/welfare_tips:latest
+    container_name: welfare_tips
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./public/config.js:/usr/share/nginx/html/config.js
+      - ./config:/usr/share/nginx/html/config

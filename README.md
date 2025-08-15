@@ -1,8 +1,3 @@
-<!--
- * @Author: 羚羊公子
- * @FilePath: \welfare_tips\README.md
--->
-
 # 🐐 翻山羊线报网
 
 翻山羊线报网前端开源代码，本项目可以让你轻松对接聚推客的福利线报，然后直接进行推广赚取佣金，所有活动都可以，本次项目仅开源前端代码方便大家自行修改部分内容，比如名字、logo 等等，也可以二开该项目写成自己想要的样子！
@@ -37,6 +32,6 @@
 
 2. authorizationKey：**域名授权密钥**
 
-### 📺详细搭建文档及视频教程
+### 📺 详细搭建文档及视频教程
 
 https://lygzblog.feishu.cn/wiki/M6rNwE86kiuXMBkb93icpAwUnse
